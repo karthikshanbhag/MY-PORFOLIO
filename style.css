@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap');
 
+body{
+    /* overflow: hidden; */
+}
+
 .background {
     background: #000;
     height: 80vh;
@@ -88,3 +92,18 @@
 html {
     scroll-behavior: smooth;
 }
+
+@media only screen and (max-width: 1098px) {
+    .w10 {
+      width: 200px;
+      margin-left: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 1098px) {
+    .prog{
+        /* justify-content: center;
+        align-items: center;             */
+        margin-left: 35px;
+    }
+  }
